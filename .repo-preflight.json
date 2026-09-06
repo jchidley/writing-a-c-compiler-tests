@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "repo-preflight-disposition",
+  "identity": "github.com/jchidley/writing-a-c-compiler-tests",
+  "decision": "no-change-required",
+  "reviewedCommit": "92c91db363968d28920b86767bfef07129a32aa9",
+  "operation": "inspect",
+  "files": {
+    "README.md": "bfa34026e9f79a1f369ebb3841d028fe3cc1612ba642c2358a08f92ee900a4fb",
+    "gen_from_templates.py": "e5256b3206b673f7a326ae9245ea9dc99275835f46f8b3e1f770ec1f9e9cf8f5"
+  },
+  "profileId": "4e2f946311539a962f68da645c3a22ac068d8be0022fc08f8ed3cae14331fcc2",
+  "reviewer": "controller-pi-session-01a07795-640e-7529-b8bf-bbdc58622b3e",
+  "summary": "Current reviewed guidance scope requires no repository-local change.",
+  "evidenceSummary": [
+    "Retain no-local-surface: 2,005-entry C/assembly corpus, full README and full gen_from_templates.py show Jinja generation of register-allocation/interference test programs into tests/, not agent instructions. Importing/running the generator writes files; it was only read. No compiler/test generation or conformance run.",
+    "Account-wide rollout identity, source scope, disposition, and validation evidence were reconciled."
+  ],
+  "limitations": [
+    "Prior semantic findings retained as historical evidence, not independently re-certified by this verification pass."
+  ],
+  "recordedAt": "2026-09-06T22:49:05.487Z",
+  "publicationApproved": false
+}
